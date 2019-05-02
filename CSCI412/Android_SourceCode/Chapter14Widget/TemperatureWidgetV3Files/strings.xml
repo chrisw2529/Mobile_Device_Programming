@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">TemperatureV3</string>
+  <string name="city_and_temp">New York, NY\n75\u00B0F</string>
+</resources>

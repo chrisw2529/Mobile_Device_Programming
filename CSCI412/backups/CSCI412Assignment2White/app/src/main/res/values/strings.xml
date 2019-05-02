@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CSCI412-Assignment2-White</string>
+    <string name="wfpReview">This is the best Pizza in Bellingham!</string>
+    <string name="abReview">I really like the iced teas, but the food is just alright</string>
+    <string name="ogReview">Your telling me I can have unlimited breadsticks??? I\'ll be back next week.</string>
+
+</resources>

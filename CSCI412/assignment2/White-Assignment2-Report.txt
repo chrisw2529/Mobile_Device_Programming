@@ -1,0 +1,11 @@
+Chris White
+
+approx time : 16 hours
+
+I thought this assignment was pretty hard.  I had alot of troubles trying to get the contraint layout working and then after about 3 hours switched back to relative.  I also had alot of trouble sending data between activities and getting my review and rating to proporly update after I submitted my review.  
+
+I couldn't get the Shared prefrences working.  This is mostly because of the way I initalize and store my data.  I initiated my data in a helper class and it is hard to get my prefrences over to that helper class and without the helper class I would of had to re-write alot of my code.  
+
+My biggest problem was properly sharing all of my data between activities.  
+
+I expect to get full points on everything except for the Data Persistency.  

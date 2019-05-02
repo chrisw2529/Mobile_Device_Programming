@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="horizontal"
+    tools:context="com.example.whitec39.csci412_assignment1_white.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linLayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/nameBtn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:layout_weight="0"
+            android:background="@color/Green"
+            android:text="Name" />
+
+
+        <Button
+            android:id="@+id/bioBtn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:layout_weight="0"
+            android:background="@color/Blue"
+            android:text="Bio" />
+
+        <Button
+            android:id="@+id/picBtn"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:layout_weight="0"
+            android:background="@color/Red"
+            android:text="Picture" />
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/linLayTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_margin="45dp"
+            android:text="Chris White"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/bioTxt"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/nameTxt"
+            android:layout_alignStart="@+id/nameTxt"
+            android:layout_below="@+id/nameTxt"
+            android:layout_marginTop="44dp"
+            android:text="I am a Computer Science student at WWU."
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/myPic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/bioTxt"
+            android:layout_alignStart="@+id/bioTxt"
+            android:layout_below="@+id/bioTxt"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/apppic"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

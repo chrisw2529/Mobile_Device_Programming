@@ -1,0 +1,11 @@
+Chris White
+
+This assignment took me approximately 6 hours.
+
+I thought this assignment was confusing, it took me a lot of time to figure out what layout I should use in which spot.  I am also not sure why I should be using a relative layout for this particular assignment.
+
+Everything in this assignment is working for me except I couldn't figure out how to get the text to align with the buttons. 
+
+I couldn't figure out how to get the text to align with the buttons because I couldn't reference the buttons ID's because they were in a different layout then my text was.  
+
+I expect to get full credit for this assignment because I have included all of the required content.

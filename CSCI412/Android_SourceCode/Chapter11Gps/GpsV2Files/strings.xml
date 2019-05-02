@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">GpsV2</string>
+  <string name="enter_destination">Enter destination</string>
+  <string name="button_text">Update</string>
+</resources>
